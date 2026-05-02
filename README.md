@@ -53,7 +53,7 @@ The program generates a password by:
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
-git clone https://github.com/Sedi-dev/your-repo-name.git
+git clone https://github.com/Sedi-dev/password-generator
 2. Navigate into the project folder:
 cd your-repo-name
 3. Run the program:
