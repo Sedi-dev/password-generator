@@ -55,7 +55,7 @@ The program generates a password by:
 1. Clone the repository:
 git clone https://github.com/Sedi-dev/password-generator
 2. Navigate into the project folder:
-cd your-repo-name
+cd password-generator
 3. Run the program:
 python main.py
 
@@ -97,6 +97,18 @@ This project strengthened my understanding of randomness and how to generate sec
 ![Password generator running](https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487)
 
 ![Input validation example](https://github.com/user-attachments/assets/eaff80d7-ca60-4fc7-bcfd-1f03bef7c938)
+
+---
+
+## Dependencies
+No external libraries required - runs with Python standard library only. 
+
+---
+
+## 🖥️ Code Structure
+- `main.py` - Contains `generate_password()`, `check_strength()`, and main CLI loop
+- Functions are modular with single responsibilities
+- Includes input validation and error handling
 
 ---
 
