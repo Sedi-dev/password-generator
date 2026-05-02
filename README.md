@@ -43,6 +43,19 @@ The program generates a password by:
 
 ---
 
+## 📌 Challenges Faced
+
+One of the main challenges was ensuring **true randomness** while still meeting strength requirements (e.g., a "strong" password must contain at least one uppercase, one lowercase, one number, and one symbol).
+
+**Solution:** I implemented a two-step approach:
+1. Guarantee required character types are included first
+2. Fill remaining length with random characters from the full pool
+3. Shuffle the result to avoid predictable patterns
+
+Another challenge was designing the **strength scoring system** to be objective and useful. I weighted factors like length, character variety, and user-selected strength level to produce a 0-100 score with clear interpretations.
+
+---
+
 ## 🛠️ Technologies Used
 - Python 3
 - Built-in random module
