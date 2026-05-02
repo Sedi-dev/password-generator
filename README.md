@@ -44,9 +44,9 @@ The program generates a password by:
 ---
 
 ## 🛠️ Technologies Used
-~ Python 3
-~ Built-in random module
-~ Built-in string module
+- Python 3
+- Built-in random module
+- Built-in string module
 
 ---
 
@@ -65,32 +65,32 @@ python main.py
 
 Each generated password is evaluated based on:
 
-~ Length of password
-~ Presence of lowercase letters
-~ Presence of uppercase letters
-~ Presence of numbers
-~ Presence of symbols
-~ Selected strength level
+- Length of password
+- Presence of lowercase letters
+- Presence of uppercase letters
+- Presence of numbers
+- Presence of symbols
+- Selected strength level
 
 The final score is displayed as a percentage with an interpretation:
 
-~ 🟢 Weak
-~ 🟡 Medium
-~ 🔴 Strong
+- 🟢 Weak
+- 🟡 Medium
+- 🔴 Strong
 
 ## 💡 Learning Outcome
 
 This project strengthened my understanding of randomness and how to generate secure, unpredictable outputs, which is important in cybersecurity and real-world applications.
 
-~ How to design modular Python programs using functions
-~ Input validation and error handling
-~ Working with randomness for secure generation
-~ Basic security principles in password design
-~ Building user-focused command-line tools
+- How to design modular Python programs using functions
+- Input validation and error handling
+- Working with randomness for secure generation
+- Basic security principles in password design
+- Building user-focused command-line tools
 
 ## 🚀 Future Improvements
-~ Allow user-defined character sets
-~ Create a GUI version
+- Allow user-defined character sets
+- Create a GUI version
 
 ## 👨🏻‍💻 Gameplay Demo
 
