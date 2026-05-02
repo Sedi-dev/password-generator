@@ -42,3 +42,11 @@ This project strengthened my understanding of randomness and how to generate sec
 ~ Allow user-defined character sets
 ~ Add password strength evaluation
 ~ Create a GUI version
+
+## 👨🏻‍💻 Gameplay Demo
+
+~ User choosing password length and password output
+
+
+~ Invalid password length
+
