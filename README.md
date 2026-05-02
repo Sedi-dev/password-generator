@@ -74,9 +74,9 @@ Each generated password is evaluated based on:
 
 The final score is displayed as a percentage with an interpretation:
 
-- 🟢 Weak
-- 🟡 Medium
-- 🔴 Strong
+- 🟢 0–49 → Weak
+- 🟡 50–79 → Medium
+- 🔴 80–100 → Strong
 
 ## 💡 Learning Outcome
 
