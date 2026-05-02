@@ -94,7 +94,9 @@ This project strengthened my understanding of randomness and how to generate sec
 
 ## 👨🏻‍💻 Gameplay Demo
 
-<img width="592" height="364" alt="password_generator_example_run1" src="https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487" />
+![Password generator running](https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487)
+
+![Input validation example](https://github.com/user-attachments/assets/eaff80d7-ca60-4fc7-bcfd-1f03bef7c938)
 
 ---
 
