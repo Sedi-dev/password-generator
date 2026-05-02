@@ -103,13 +103,19 @@ This project strengthened my understanding of randomness and how to generate sec
 
 ## 🚀 Future Improvements
 - Allow user-defined character sets
-- Create a GUI version
+- Create a GUI version using Tinker or web interface
+- Add password strength estimation without user-selected level (pure entropy-based)
+- Save generated passwords to an encrypted file (basic password manager)
+- Add clipboard copy functionality
 
 ## 👨🏻‍💻 Gameplay Demo
 
 ![Password generator running](https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487)
 
 ![Input validation example](https://github.com/user-attachments/assets/eaff80d7-ca60-4fc7-bcfd-1f03bef7c938)
+
+![Password and strength input validation example](https://github.com/user-attachments/assets/4aa0278c-195f-4eb6-a579-17aee13301a3)
+
 
 ---
 
@@ -119,10 +125,14 @@ No external libraries required - runs with Python standard library only.
 ---
 
 ## 🖥️ Code Structure
-- `main.py` - Contains `generate_password()`, `check_strength()`, and main CLI loop
-- Functions are modular with single responsibilities
-- Includes input validation and error handling
 
+- `main.py` contains:
+  - `generate_password(length, strength)` → returns password string
+  - `check_strength(password, expected_strength)` → returns score (0-100)
+  - `get_user_input()` → validates all user inputs
+- Functions are modular with single responsibilities
+- Includes type hints (Python 3.6+)
+  
 ---
 
 ⭐ This project was built as part of my learning journey in Computer Science to strengthen my understanding of programming fundamentals and practical problem-solving.
