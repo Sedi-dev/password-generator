@@ -108,7 +108,7 @@ This project strengthened my understanding of randomness and how to generate sec
 - Save generated passwords to an encrypted file (basic password manager)
 - Add clipboard copy functionality
 
-## 👨🏻‍💻 Gameplay Demo
+## 👨🏻‍💻 Program Demo
 
 ![Password generator running](https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487)
 
