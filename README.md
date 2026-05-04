@@ -136,3 +136,7 @@ No external libraries required - runs with Python standard library only.
 ---
 
 ⭐ This project was built as part of my learning journey in Computer Science to strengthen my understanding of programming fundamentals and practical problem-solving.
+
+---
+
+Last updated: May 2026
