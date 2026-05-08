@@ -139,4 +139,8 @@ No external libraries required - runs with Python standard library only.
 
 ---
 
+⭐ If you found this project interesting, feel free to explore my other repositories.
+
+---
+
 Last updated: May 2026
