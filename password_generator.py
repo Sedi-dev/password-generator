@@ -6,9 +6,10 @@ import random
 import string
 
 def generator(length, strength):
-   """ 
+   """
    Generates secure passwords based on user-selected strength: 
    weak, medium, strong.
+   
    """
    
    lower = string.ascii_lowercase 
@@ -54,9 +55,9 @@ def get_strength():
    
    while True:
       print("\n--- Choose strength:")
-      print("1 - Weak(not recommended)")
+      print("1 - Weak (not recommended)")
       print("2 - Medium")
-      print("3 - Strong(recommended)")
+      print("3 - Strong (recommended)")
       
       choice = input("Enter choice (1/2/3):\n")
       
@@ -73,6 +74,7 @@ def strength_score(password, strength):
    """
    Returns a strength score (0-100) based on password:
    length + character variety + strength level.
+   
    """
    score = 0
    
