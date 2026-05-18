@@ -110,11 +110,14 @@ This project strengthened my understanding of randomness and how to generate sec
 
 ## 👨🏻‍💻 Program Demo
 
-![Password generator running](https://github.com/user-attachments/assets/caad33d3-87b3-4bf9-9c0c-3d8614aab487)
+![Password generator running](https://github.com/user-attachments/assets/e6b1a090-02b9-4079-8b9e-a85b9ed42e0b)
 
-![Input validation example](https://github.com/user-attachments/assets/eaff80d7-ca60-4fc7-bcfd-1f03bef7c938)
 
-![Password and strength input validation example](https://github.com/user-attachments/assets/4aa0278c-195f-4eb6-a579-17aee13301a3)
+![Input validation example](https://github.com/user-attachments/assets/887e34fc-c9d8-4526-9e7d-b978af6011d8)
+
+
+![Password and strength input validation example](https://github.com/user-attachments/assets/5511b3e8-6cd1-4050-bda3-075daef25ba5)
+
 
 
 ---
