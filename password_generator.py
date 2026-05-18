@@ -108,7 +108,7 @@ def strength_score(password, strength):
 
 def main():
    
-   print("🔐 Password Generator Tool")
+   print("Password Generator Tool")
   # Keep asking for length until valid input is given
   
    while True: 
@@ -133,14 +133,14 @@ def main():
    
    # Interpret score
    if score >= 80:
-      level = "Strong 🔴"
+      level = "Strong"
    elif score >= 50:
-      level = "Medium 🟡" 
+      level = "Medium" 
    else:
-      level = "Weak 🟢"
+      level = "Weak"
    
    print("\n" + "-"*40)
-   print("🔐 PASSWORD GENERATED SUCCESSFULLY")
+   print("PASSWORD GENERATED SUCCESSFULLY")
    print("-"*40)
    
    print("Your new generated password is:", password)
