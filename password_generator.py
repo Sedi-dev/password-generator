@@ -68,7 +68,7 @@ def get_strength():
       elif choice == "3":
          return "Strong" 
       else: 
-         print("Invalid choice")
+         print("Invalid choice.")
          
 def strength_score(password, strength):
    """
@@ -117,13 +117,13 @@ def main():
          
          if length < 4:
             
-            print("Password must be at least 4 characters")
+            print("Password must be at least 4 characters.")
             continue
          
          break
       
       except ValueError:
-         print("Please enter a valid number")   
+         print("Please enter a valid number.")   
          
    strength = get_strength()
    
