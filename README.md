@@ -110,12 +110,18 @@ This project strengthened my understanding of randomness and how to generate sec
 
 ## 👨🏻‍💻 Program Demo
 
+
+### Runtime
 ![Password generator running](https://github.com/user-attachments/assets/e6b1a090-02b9-4079-8b9e-a85b9ed42e0b)
 
 
+
+### Validation check
 ![Input validation example](https://github.com/user-attachments/assets/887e34fc-c9d8-4526-9e7d-b978af6011d8)
 
 
+
+### Invalid strength input
 ![Password and strength input validation example](https://github.com/user-attachments/assets/5511b3e8-6cd1-4050-bda3-075daef25ba5)
 
 
