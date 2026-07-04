@@ -1,12 +1,12 @@
 # 🔐 Password Generator (Python)
 
-## 📌 Project Overview
+## Project Overview
 
 This program is a secure password generator built in Python. It generates strong, random passwords using a combination of letters, numbers, and special characters.
 
 ---
 
-## ⚙️ Features
+## Features
 - Generate passwords with adjustable strength levels:
     - Weak (letters only)
     - Medium (letters + numbers)
@@ -19,7 +19,7 @@ This program is a secure password generator built in Python. It generates strong
 
 ---
 
-## 🧠 Key Concepts & Skills Demonstrated
+## Key Concepts & Skills Demonstrated
 
 This project demonstrates understanding of:
 
@@ -31,7 +31,7 @@ This project demonstrates understanding of:
   
 --- 
 
-## 🧠 How It Works
+## How It Works
 
 The program generates a password by:
 
@@ -43,7 +43,7 @@ The program generates a password by:
 
 ---
 
-## 📌 Challenges Faced
+## Challenges Faced
 
 One of the main challenges was ensuring **true randomness** while still meeting strength requirements (e.g., a "strong" password must contain at least one uppercase, one lowercase, one number, and one symbol).
 
@@ -56,14 +56,14 @@ Another challenge was designing the **strength scoring system** to be objective 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python 3
 - Built-in random module
 - Built-in string module
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Clone the repository:
 git clone https://github.com/Sedi-dev/password-generator
@@ -87,11 +87,11 @@ Each generated password is evaluated based on:
 
 The final score is displayed as a percentage with an interpretation:
 
-- 🟢 0–49 → Weak
-- 🟡 50–79 → Medium
-- 🔴 80–100 → Strong
+-  0–49 → Weak
+-  50–79 → Medium
+-  80–100 → Strong
 
-## 💡 Learning Outcome
+## Learning Outcome
 
 This project strengthened my understanding of randomness and how to generate secure, unpredictable outputs, which is important in cybersecurity and real-world applications.
 
@@ -101,7 +101,7 @@ This project strengthened my understanding of randomness and how to generate sec
 - Basic security principles in password design
 - Building user-focused command-line tools
 
-## 🚀 Future Improvements
+## Future Improvements
 - Allow user-defined character sets
 - Create a GUI version using Tinker or web interface
 - Add password strength estimation without user-selected level (pure entropy-based)
@@ -127,7 +127,7 @@ No external libraries required - runs with Python standard library only.
 
 ---
 
-## 🖥️ Code Structure
+## Code Structure
 
 - `main.py` contains:
   - `generate_password(length, strength)` → returns password string
